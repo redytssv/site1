@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	color: #323232;
+	border: none;
+}
+
+/**Header**/
+
+.submenu{
+	position: static;
+    height: 50%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.submenu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #000000;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.submenu a:hover{
+	color: #fff;
+	border-color: #fff;
+	background-color: transparent;
+}
+
+/**Main**/
+
+.conteiner {
+	background-image: url('./imgs/img2.jpeg');
+	background-size: cover;
+	height: 600px;
+}
+
+/**imagem**/
+
+.imagem {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 150px;
+}
+.boximagem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+	width: 600px;
+	height: 180px;
+	margin: auto;
+}
+.textoimagem {
+}
+
+.textofundo {
+	position: absolute;
+	color: #000;
+	text-align: center;
+	top: 40%;
+	right: 40%;
+	width: 300px;
+	line-height: 30px;
+	height: 100px;
+}
+
+.tela-itens {
+	width: 55%;
+	margin-top: 10px;
+	background-color: black;
+	background: -webkit-gradient(linear, left top, right top, from(#7ded21), to(#a4eb6a));
+    background: linear-gradient(to right, #7ded21, #a4eb6a);
+}
+.itens {
+	margin-bottom: 55px;
+	margin-right: 5px;
+	margin-left: 10px;
+	border-color: black;
+	border-width: 15px;
+}
+.tela-itens .itens {
+	float: left;
+	width: 100px; height: 120px;
+}
+.tela-itens .itens .item-tamb {
+	position: relative;
+	width: 100%;
+	padding-bottom: 80%;
+	overflow: hidden;
+	display: block;
+	float: left;
+}
+.tela-itens .itens .item-tamb .img-tamb {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+.tela-itens .itens .tela-info-img {
+	width: 100%;
+	float: left;
+}
+.tela-info-img {
+	color: #fff;
+}
+.tela-itens .itens .text-title {
+	font-size: 10px;
+	text-align: center;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tela-itens .itens {
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+.bt-op {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 25px;
+	color: #fff;
+	background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+    background: linear-gradient(to right, #ee5a6f, #f29263);
+	cursor: pointer;
+}
+
+/**Footer**/
+
+footer {
+	height: 150px;
+	background-color: green;
+}
+
+footer div span {
+	color: black;
+}

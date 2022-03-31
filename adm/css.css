@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	color: #323232;
+	border: none;
+}
+
+/**Header**/
+
+.submenu{
+	position: static;
+    height: 50%;
+    width: 100%;
+    background-color: green;	
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.submenu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #000000;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.submenu a:hover{
+	color: #fff;
+	border-color: #fff;
+	background-color: transparent;
+}
+
+/**Main**/
+
+main.iten {
+	background: gray;
+	height: 500px;
+}
+
+/**Footer**/
+
+footer {
+	height: 150px;
+	background-color: green;
+}
+
+footer div span {
+	color: black;
+}
